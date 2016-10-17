@@ -1,0 +1,11 @@
+#! usr/bin/env python3
+for num in range(0,50):
+    if num < 10:
+        print("",num,end="\t")
+    else:
+        print(num,end="\t")
+    if str(num).endswith("9"):
+        print("")
+    
+    
+    
